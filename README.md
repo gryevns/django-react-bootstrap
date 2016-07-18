@@ -1,5 +1,7 @@
 # Django React Bootstrap
 
+Lightweight boilerplate for a Django backend and ReactJS frontend. Uses Django Rest Framework to create RESTful APIs which can be consumed by React. Webpack used to watch for JS changes and rebuild bundle served via Django template.
+
 ## Setup
 ```
 git clone git://github.com/gryevns/django-react-bootstrap.git
@@ -7,13 +9,12 @@ cd django-react-bootstrap
 virtualenv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-
 npm install
-./node_modules/webpack/bin/webpack.js
 
 python manage.py migrate
 python manage.py createsuperuser
-python manage.py runserver
+nohup python manage.py runserver &
+npm start
 ```
 
 ## URLs
