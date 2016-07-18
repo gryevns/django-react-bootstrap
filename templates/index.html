@@ -1,0 +1,13 @@
+{% load render_bundle from webpack_loader %}
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello, World!</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}" />
+    </head>
+    <body>
+        <div id="container"></div>
+        {% render_bundle 'main' %}
+    </body>
+</html>

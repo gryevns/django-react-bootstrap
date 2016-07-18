@@ -1,0 +1,6 @@
+*.pyc
+db.sqlite3
+node_modules/*
+assets/bundles/*
+webpack-stats.json
+.venv/*

@@ -1,0 +1,4 @@
+Django==1.9.7
+django-webpack-loader==0.3.0
+djangorestframework==3.4.0
+wsgiref==0.1.2
