@@ -17,6 +17,12 @@ nohup python manage.py runserver &
 npm start
 ```
 
+## JWT Authentication
+```
+curl -X POST -d "username=<username>&password=<password>" http://localhost:8000/api-token-auth/
+curl -H "Authorization: JWT <token>" http://localhost:8000/api/users/
+```
+
 ## URLs
 URL                       | Detail
 ------------------------- | ---------------------
