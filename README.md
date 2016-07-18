@@ -3,11 +3,14 @@
 ## Setup
 ```
 git clone git://github.com/gryevns/django-react-bootstrap.git
+cd django-react-bootstrap
 virtualenv .venv
 source .venv/bin/activate
-pip install -u requirements.txt
+pip install -r requirements.txt
 
-cd bootstrap
+npm install
+./node_modules/webpack/bin/webpack.js
+
 python manage.py migrate
 python manage.py createsuperuser
 python manage.py runserver
