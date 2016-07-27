@@ -1,6 +1,6 @@
 # Django React Bootstrap
 
-Lightweight boilerplate for a Django backend and ReactJS frontend. Uses Django Rest Framework to create RESTful APIs which can be consumed by React. Webpack used to watch for JS changes and rebuild bundle served via Django template.
+Lightweight boilerplate for a Django and ReactJS application. Uses Django Rest Framework to create RESTful APIs which can be consumed by React with JWT authentication. Webpack used to watch for JS changes and rebuild bundle served via Django template.
 
 ## Setup
 ```
