@@ -2,5 +2,4 @@ Django==1.9.7
 PyJWT==1.4.1
 django-webpack-loader==0.3.0
 djangorestframework==3.4.0
-djangorestframework-jwt==1.8.0
 wsgiref==0.1.2
